@@ -1,0 +1,27 @@
+:root{
+  --color-primary: #023059;
+  --color-secondary: #3973BF;
+  --color-hover-secondary: #2163b9;
+  --color-bg-form:#3973BF;
+  --color-primary-hover: #002647;
+}
+
+.btn-login {
+  background-color: var(--color-secondary) !important;
+}
+
+.btn-login:hover {
+  background-color: var(--color-hover-secondary) !important;
+}
+
+.btn-comece {
+  background-color: var(--color-primary) !important;
+}
+
+.btn-comece:hover {
+  background-color: var(--color-primary-hover) !important;
+}
+
+.bg-form {
+  background-color: var(--color-bg-form) !important;
+}
