@@ -3,11 +3,12 @@
   --color-secondary: #3973BF;
   --color-hover-secondary: #2163b9;
   --color-bg-form:#3973BF;
-  --color-primary-hover: #002647;
-}
+  --color-primary-hover: #00396b;
+  }
 
 .btn-login {
   background-color: var(--color-secondary) !important;
+  border: 0;
 }
 
 .btn-login:hover {
@@ -16,12 +17,35 @@
 
 .btn-comece {
   background-color: var(--color-primary) !important;
+  border: 0;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .btn-comece:hover {
   background-color: var(--color-primary-hover) !important;
+  transform: scale(1.03);
+  transition: 0.5s;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 .bg-form {
   background-color: var(--color-bg-form) !important;
+}
+
+.card-shadow {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card-shadow:hover {
+  transform: scale(1.03);
+  transition: 0.3s;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.color-social {
+ color: white;
+}
+
+.color-social:hover {
+  transition: 0.3s;
+  color: #3973BF;
 }
