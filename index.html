@@ -11,7 +11,7 @@
 			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
 			crossorigin="anonymous"
 		/>
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
@@ -87,14 +87,7 @@
 			<section>
 				<div id="carouselExampleDark" class="carousel carousel-dark slide">
 					<div class="carousel-indicators">
-						<button
-							type="button"
-							data-bs-target="#carouselExampleDark"
-							data-bs-slide-to="0"
-							class="active"
-							aria-current="true"
-							aria-label="Slide 1"
-						></button>
+						<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
 						<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
 						<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
 						<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
@@ -154,6 +147,7 @@
 				<div class="album py-5 bg-body-tertiary">
 					<div class="container">
 						<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+							
 							<!-- card -->
 							<div class="col">
 								<div class="card h-100 card-shadow">
@@ -176,7 +170,7 @@
 							<div class="col">
 								<div class="card h-100 card-shadow">
 									<figure class="figure">
-										<img src="./img/data-science.svg" class="d-block w-100" alt="Imagem curso Data Science"/>
+										<img src="./img/data-science.svg" class="d-block w-100" alt="Imagem curso Data Science" />
 									</figure>
 									<div class="card-body">
 										<h3>Data Science</h3>
@@ -273,6 +267,7 @@
 								</div>
 							</div>
 							<!-- fim card -->
+
 						</div>
 					</div>
 				</div>
@@ -283,9 +278,7 @@
 					<div class="p-4 p-md-5 align-items-center text-center" style="background-color: #77d9bd">
 						<div class="container align-items-center">
 							<h3 class="fw-bold display-6 text-dark">Confira mais detalhes sobre nossos cursos</h3>
-							<p class="lead my-3 text-dark">
-								Saiba por onde começar e conheça nossa trilha de aprendizado.
-							</p>
+							<p class="lead my-3 text-dark">Saiba por onde começar e conheça nossa trilha de aprendizado.</p>
 						</div>
 
 						<!-- Tabela -->
@@ -384,42 +377,40 @@
 			</section>
 
 			<section>
-				<div class="container-lg-fluid">
-					<form>
-						<div class="p-4 p-md-5 bg-form">
-							<div class="container text-light">
-								<h3 class="pt-3 pb-3">Tire suas dúvidas</h3>
-								<div class="mb-3">
-									<label for="exampleFormControlInput1" class="form-label">Nome</label>
-									<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Digite seu nome" />
-								</div>
-								<div class="mb-3">
-									<label for="exampleFormControlInput2" class="form-label">E-mail</label>
-									<input type="email" class="form-control" id="exampleFormControlInput2" placeholder="nome@email.com" />
-								</div>
-								<div class="mb-3">
-									<label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
-									<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-								</div>
-								<button class="btn btn-comece btn-lg text-light m-sm-2 border-0" type="submit">Enviar Mensagem</button>
+				<div class="container-lg-fluid bg-form py-5 text-light">
+					<div class="container" style="max-width: 600px">
+						<form>
+							<h3 class="py-3">Tire suas dúvidas</h3>
+							<div class="mb-3">
+								<label for="exampleFormControlInput1" class="form-label">Nome</label>
+								<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Digite seu nome" />
 							</div>
-						</div>
-					</form>
+							<div class="mb-3">
+								<label for="exampleFormControlInput2" class="form-label">E-mail</label>
+								<input type="email" class="form-control" id="exampleFormControlInput2" placeholder="nome@email.com" />
+							</div>
+							<div class="mb-3">
+								<label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
+								<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+							</div>
+							<button class="btn btn-comece btn-lg text-light m-sm-2 border-0" type="submit">Enviar Mensagem</button>
+						</form>
+					</div>
 				</div>
 			</section>
 		</main>
 
 		<footer>
-			<div class="container-lg-fluid py-4" style="background-color: #0d0d0d;">
+			<div class="container-lg-fluid py-4" style="background-color: #0d0d0d">
 				<div class="container">
-					<div class="d-flex flex-wrap align-items-center py-3">
-						<div class="col-md-6 d-flex align-items-center justify-content-between">
+					<div class="d-flex py-3 justify-content-between">
+						<div class="d-flex align-items-center justify-content-between">
 							<a href="" class="me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
 								<img src="./img/logo-tribo-digital-branca.svg" height="30" alt="Logomarca Tribo" />
 							</a>
-							<span class="mb-md-0 text-light">© 2023 Todos os direitos reservados </span>
 						</div>
-						<ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+						<span class="text-light text-center">© 2023 Todos os direitos reservados </span>
+						<ul class="nav justify-content-end list-unstyled d-flex">
 							<li class="ms-3">
 								<a class="color-social" href="#">
 									<i class="bi bi-twitter"></i>
@@ -428,7 +419,7 @@
 							<li class="ms-3">
 								<a class="color-social" href="#">
 									<i class="bi bi-instagram"></i>
-							</a>
+								</a>
 							</li>
 							<li class="ms-3">
 								<a class="color-social" href="#">
